@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomeWorkApp {
-
     public static void printThreeWords(){
 
         List<String> fruits = new ArrayList<>();
