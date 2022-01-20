@@ -9,4 +9,9 @@ node_modules
 .env
 
 # Ignore IDE
- .idea/
+.idea/
+
+#out files
+out/
+
+*.iml

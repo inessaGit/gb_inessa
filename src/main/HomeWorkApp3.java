@@ -1,7 +1,4 @@
 package main;
-
-package main;
-
 import java.util.*;
 
 public class HomeWorkApp3 {
