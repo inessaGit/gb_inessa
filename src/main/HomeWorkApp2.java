@@ -1,3 +1,5 @@
+package main;
+
 public class HomeWorkApp2 {
 /*
 их сумма лежит в пределах от 10 до 20 (включительно), если да – вернуть true, в противном случае – false.
