@@ -2,7 +2,6 @@ package main;
 import java.util.*;
 
 public class HomeWorkApp3 {
-
     public static void replaceZero(){
         int length = 10;
         int [] arr = new int [length];
