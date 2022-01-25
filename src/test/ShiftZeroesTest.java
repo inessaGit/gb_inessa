@@ -1,9 +1,7 @@
 package test;
 
 import org.testng.annotations.*;
-import temp.*;
 
-import static org.testng.Assert.*;
 
 public class ShiftZeroesTest {
 
