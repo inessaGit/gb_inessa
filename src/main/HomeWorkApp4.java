@@ -21,7 +21,6 @@ public class HomeWorkApp4 {
             }
         }
     }
-
     public static void printMap() {
         for (int i = 0; i <SIZE; i++) {
           System.out.print("\t");
@@ -122,7 +121,6 @@ public class HomeWorkApp4 {
         }
         return true;
     }
-
     public static void main (String args[]){
         initMap();
         printMap();
