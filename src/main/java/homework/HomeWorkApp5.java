@@ -1,6 +1,10 @@
 package homework;
 import com.github.javafaker.Faker;
-
+/*
+      Q:how to avoid double injection of employee? Without making method static.
+       Current:        emp1.printEmployeeInfo(emp1);
+       Should be: emp1.printEmployeeInfo();
+       */
 public class HomeWorkApp5 {
 
     public static void main (String args[]){
@@ -28,11 +32,7 @@ public class HomeWorkApp5 {
         Employee emp3 = new Employee
                 ("fname", "lname","engineer","test@gmail.com",
                         "444555544",44433.30, 33.2);
-         /*
-        how to avoid double injection of employee? Without making method static
-         emp1.printEmployeeInfo();
-         emp2.printEmployeeInfo();
-         */
+
         emp1.printEmployeeInfo(emp1);
         emp2.printEmployeeInfo(emp2);
         emp3.printEmployeeInfo(emp3);
@@ -43,14 +43,11 @@ public class HomeWorkApp5 {
 2. Конструктор класса должен заполнять эти поля при создании объекта.
 3. Внутри класса «Сотрудник» написать метод, который выводит информацию об объекте в консоль.
 4. Создать массив из 5 сотрудников.
-Создать массив из 5 сотрудников.
-Пример:
+Создать массив из 5 сотрудников.Пример:
 Person[] persArray = new Person[5]; // Вначале объявляем массив объектов
 persArray[0] = new Person("Ivanov Ivan", "Engineer", "ivivan@mailbox.com", "892312312", 30000, 30); // потом для каждой ячейки массива задаем объект
 persArray[1] = new Person(...);
-...
 persArray[4] = new Person(...);
-
 5. С помощью цикла вывести информацию только о сотрудниках старше 40 лет.
  */
 class Employee{
