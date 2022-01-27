@@ -29,7 +29,7 @@ public class HomeWorkApp5 {
                 ("fname", "lname","engineer","test@gmail.com",
                         "444555544",44433.30, 33.2);
          /*
-        how to avoid double injection of employee?
+        how to avoid double injection of employee? Without making method static
          emp1.printEmployeeInfo();
          emp2.printEmployeeInfo();
          */
