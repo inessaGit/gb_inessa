@@ -1,11 +1,7 @@
 package homework;
-
-import org.apache.commons.lang3.ArrayUtils;
 import org.testng.Assert;
-
 import java.util.ArrayList;
 import java.util.List;
-
 /*
 Создать классы Собака и Кот с наследованием от класса Животное.
 Все животные могут бежать и плыть. В качестве параметра каждому методу передается длина препятствия.
@@ -13,7 +9,6 @@ import java.util.List;
 У каждого животного есть ограничения на действия (бег: кот 200 м., собака 500 м.; плавание: кот не умеет плавать,
  собака 10 м.).
 * Добавить подсчет созданных котов, собак и животных.
-
  */
 public class HomeWorkApp6 {
     public static void main(String args[]){
@@ -36,7 +31,6 @@ public class HomeWorkApp6 {
         int numOfCats=Cat.getNumberOfCatInstances();
         Assert.assertTrue(numOfAnimals==10);
     }
-
 }
 
 abstract class Animal{
