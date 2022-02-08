@@ -102,7 +102,6 @@ public class HomeWorkApp8 {
                  "\n" +
                  "You might also invoke methods on a text area that it inherits from its other ancestors, such as setPreferredSize, setForeground, setBackground, setFont, and so on. See The JComponent Class for tables of commonly used inherited methods.\n" +
                  "\n";
-
          JTextArea textArea = new JTextArea(textAreaMessage,50, 50);
          textArea.setFont(font2);
          textArea.setLineWrap(true);
@@ -110,7 +109,7 @@ public class HomeWorkApp8 {
          textArea.setEditable(true);
 
          JLabel labelTop = new JLabel("Vowel Count: ",SwingConstants.CENTER);
-         labelTop.setPreferredSize(new Dimension(50,50));
+         labelTop.setPreferredSize(new Dimension(40,40));
          //labelTop.setText("Vowel Count: ");
          //labelTop.setHorizontalAlignment(SwingConstants.CENTER);
          labelTop.setAlignmentX(JLabel.CENTER_ALIGNMENT);//AlignmentX is for the component alignment within the parent container.
