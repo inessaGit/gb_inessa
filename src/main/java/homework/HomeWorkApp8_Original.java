@@ -30,7 +30,7 @@ public class HomeWorkApp8_Original {
         // new CounterApp(0);
         EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new CounterApp(0);
+                new CounterApp();
             }
         });
     }

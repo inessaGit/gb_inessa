@@ -32,7 +32,7 @@ public class HomeWorkApp8 {
        // new CounterApp(0);
         EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new CounterApp(0);
+                new CounterApp();
             }
         });
     }
@@ -153,7 +153,7 @@ public class HomeWorkApp8 {
          bottomPanel.add(countButton);//?
          bottomPanel.add(clearButton);//?
      };
-     public CounterApp(int initialValue) {
+     public CounterApp() {
          initUI();
          setResizable(true);
          setLocationRelativeTo(null); //to center JFrame in the display area of the screen
