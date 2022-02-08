@@ -68,7 +68,7 @@ public class HomeWorkApp8 {
         return counter;
      }
      private void initUI(){
-         setBounds(700, 700, 400, 400);
+         setBounds(700, 700, 450, 400);
          Dimension size = new Dimension(50,50);
          setTitle("Simple Vowel Counter");
 
