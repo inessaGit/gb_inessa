@@ -1,5 +1,4 @@
-package main;
-
+package temp;
 import org.testng.annotations.*;
 
 import java.util.*;
@@ -17,6 +16,8 @@ public class Temp {
        | 7 | 8 | 9 |
        |---|---|---|*/
     public static void main(String args[]) {
+      String s=2+2+"=value";
+        System.out.println(s);
 
         System.out.println(State.DOT_X);
         int[][] matrix = new int[3][3];
@@ -24,11 +25,6 @@ public class Temp {
             Arrays.fill(row, 1);
             System.out.println(Arrays.toString(row));
         }
-
-        String test ="hello";
-        String test1= String.format(test, "%d");
-        System.out.println(test1);
-        System.out.printf("%d",test);
 
 
     }
